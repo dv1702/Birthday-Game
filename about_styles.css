@@ -1,0 +1,132 @@
+/*##################### Nav-Bar #######################*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    display: block;
+}
+
+nav ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    list-style: none;
+}
+
+nav ul li{
+    position: relative;
+    display: block;
+    float: left;
+    font-size: large;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    min-height: 1rem;
+}
+
+nav ul li a:hover{
+    color: #333333;
+    background-color:  #AAAAAA;
+}
+
+
+.row
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.row::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+div.meme
+{
+    padding: 2rem;
+}
+
+div.meme div.row
+{
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+div.meme div.row div.col-4
+{
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+div.row div.col-8
+{
+    padding: 2rem;
+    text-align: center;;
+}
+
+div.row div.col-8 iframe
+{
+    border-radius: 7px;
+}
+
+div.last
+{
+    margin-bottom: 5rem;
+    text-align:center;
+}
+
+div.last a
+{
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    background-color: #333333;
+    color: #AAAAAA;
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+
+
